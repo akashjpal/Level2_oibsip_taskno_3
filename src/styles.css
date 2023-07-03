@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0px;
+}
+.input-todolist {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto Slab", serif;
+  width: 90%;
+  background-color: wheat;
+  padding: 5%;
+}
+.input-todolist > input,
+button {
+  padding: 5px;
+  font-family: "Roboto Slab", serif;
+}
+.todolist--input {
+  margin-right: 5px;
+  border: 1px gray solid;
+  border-radius: 5px;
+  text-indent: 5px;
+  width: 50%;
+  letter-spacing: 0.05rem;
+}
+
+.todolist--btn {
+  border: none;
+  border-radius: 5px;
+  background-color: #5a96e3;
+  color: White;
+  cursor: pointer;
+  letter-spacing: 0.07rem;
+}
+
+.task--list {
+  width: 60%;
+  display: block;
+  margin: 3rem auto;
+  text-align: center;
+  color: #617a55;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+.eachTaskList {
+  padding: 4%;
+  margin-top: 2rem;
+  color: #9ca777;
+}
+.eachTask {
+  padding: 4%;
+  border-radius: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  background-color: #f1f6f9;
+}
+.eachTask > button {
+  border: none;
+  border-radius: 5px;
+  background-color: Red;
+  color: White;
+  cursor: pointer;
+  letter-spacing: 0.07rem;
+}
